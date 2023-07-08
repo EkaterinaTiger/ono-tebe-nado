@@ -19,12 +19,17 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.main {
+  width: 100%;
+}
+
 /* HEADER */
 
 .header {
   display: grid;
   grid-template-columns: 1.2fr 1fr 0.5fr;
   padding: 92px 49px 96px 51px;
+  width: 100%;
 }
 
 .header__menu {
@@ -284,6 +289,7 @@
   display: flex;
   justify-content: space-between;
   padding: 180px 50px 90px;
+  width: 100%;
 }
 
 .footer__menu-list {
