@@ -1,6 +1,6 @@
 /* место для вашего кода */
-body {
-  max-width: 1440px;
+.container {
+  min-width: 1440px;
   margin: 0 auto;
   color: #000;
   font-family: "Raleway", sans-serif;
