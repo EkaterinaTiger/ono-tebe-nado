@@ -1,6 +1,6 @@
 /* место для вашего кода */
 .container {
-  min-width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
   color: #000;
   font-family: "Raleway", sans-serif;
@@ -81,6 +81,7 @@
   margin-top: -4px;
   padding: 165px 50px 53px;
   background-image: url(/images/cover.jpg);
+  background-size: cover;
 }
 
 .cover__title {
