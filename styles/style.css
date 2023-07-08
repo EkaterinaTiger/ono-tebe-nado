@@ -1,5 +1,6 @@
 /* место для вашего кода */
 .container {
+  max-width: 1440px;
   margin: 0 auto;
   color: #000;
   font-family: "Raleway", sans-serif;
@@ -23,7 +24,7 @@
 .header {
   display: grid;
   grid-template-columns: 1.2fr 1fr 0.5fr;
-  padding: 92px 33px 96px 51px;
+  padding: 92px 49px 96px 51px;
 }
 
 .header__menu {
@@ -67,13 +68,10 @@
   margin-left: 8px;
 }
 
-.header__address-link, .footer__address-link {
+.header__address-link,
+.footer__address-link {
   border-bottom: 1px solid #000;
   text-decoration: none;
-}
-
-.header__address-style, .footer__address-style {
-  font-style: normal;
 }
 
 /* COVER */
@@ -82,9 +80,8 @@
   position: relative;
   z-index: 1;
   margin-top: -4px;
-  padding: 165px 32px 53px 49px;
+  padding: 165px 50px 53px;
   background-image: url(/images/cover.jpg);
-  background-size: cover;
 }
 
 .cover__title {
@@ -94,6 +91,9 @@
   font-size: 100px;
   line-height: 115%;
   letter-spacing: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .aligned-text {
@@ -101,13 +101,12 @@
 }
 
 .aligned-text_center {
-  margin-top: 12px;
   margin-right: 60px;
   text-align: center;
 }
 
 .aligned-text_right {
-  margin-top: 5px;
+  /* /* margin-top: 5px; */
   margin-right: -30px;
   text-align: right;
 }
@@ -154,12 +153,12 @@
 /* LOTS */
 
 .lots {
-  padding: 180px 32px 180px 51px;
+  padding: 180px 50px;
 }
 
 .lots__heading {
   margin-bottom: 26px;
-  padding-left: 38px;
+  padding-left: 40px;
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
@@ -170,7 +169,7 @@
 .lots__card-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 25px;
   margin-bottom: 30px;
   list-style: none;
 }
@@ -210,21 +209,18 @@
 
 .card_type_film {
   background-image: url(/images/card-lot-01.jpg);
-  background-size: cover;
 }
 
 .card_type_book {
   background-image: url(/images/card-lot-02.jpg);
-  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(/images/card-lot-03.jpg);
-  background-size: cover;
 }
 
 .lots__look-more-link {
-  margin-left: 38px;
+  margin-left: 40px;
   border-bottom: 1px solid #000;
   font-weight: 400;
   font-size: 20px;
@@ -238,7 +234,7 @@
 .about {
   display: flex;
   gap: 120px;
-  padding: 0 30px 0 145px;
+  padding: 0 50px 0 145px;
 }
 
 .about__column {
@@ -287,7 +283,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 180px 30px 90px 50px;
+  padding: 180px 50px 90px;
 }
 
 .footer__menu-list {
