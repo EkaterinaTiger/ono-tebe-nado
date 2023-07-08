@@ -155,12 +155,12 @@
 /* LOTS */
 
 .lots {
-  padding: 180px 39px;
+  padding: 180px 32px 180px 51px;
 }
 
 .lots__heading {
   margin-bottom: 26px;
-  padding-left: 50px;
+  padding-left: 38px;
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
@@ -225,7 +225,7 @@
 }
 
 .lots__look-more-link {
-  margin-left: 50px;
+  margin-left: 38px;
   border-bottom: 1px solid #000;
   font-weight: 400;
   font-size: 20px;
