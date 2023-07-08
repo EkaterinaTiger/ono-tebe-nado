@@ -73,6 +73,10 @@
   text-decoration: none;
 }
 
+.header__address-style, .footer__address-style {
+  font-style: normal;
+}
+
 /* COVER */
 
 .cover {
