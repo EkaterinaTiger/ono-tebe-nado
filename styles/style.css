@@ -23,12 +23,6 @@
   width: 100%;
 }
 
-.header__address-style,
-.footer__address-style {
-  font-style: normal;
-  white-space: nowrap;
-}
-
 /* HEADER */
 
 .header {
@@ -70,13 +64,16 @@
 
 .address {
   font-weight: 400;
+  font-style: normal;
   line-height: 24.3px;
   list-style: none;
+  white-space: nowrap;
 }
 
 .header__address {
   margin-top: 6px;
   margin-left: 8px;
+  list-style: none;
 }
 
 .header__address-link,
@@ -321,4 +318,8 @@
 
 .footer__menu-link_active {
   border-bottom: none;
+}
+
+.footer__address {
+  list-style: none;
 }
